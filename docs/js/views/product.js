@@ -4,7 +4,7 @@ export function renderProduct() {
   <main class="main">  
     <h1>Productos</h1>
       <div class="card">
-      <img class="card__avatar" src="${window.location.origin}/FRONTEND/src/img/logo.jpg" alt="Avatar del usuario">
+      <img class="card__avatar" src="${window.location.origin}/docs/img/logo.jpg" alt="Avatar del usuario">
       <h2 class="card__name">King Wolf</h2>
       <p class="card__role">Local de ventas mayorista y minorista de medias</p>
       <p class="card__bio">
