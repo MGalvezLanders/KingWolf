@@ -3,7 +3,7 @@ const fs = require('fs');
 const path = require('path');
 
 const PORT = 5500;
-const FRONTEND_DIR = path.join(__dirname, 'FRONTEND', 'src');
+const FRONTEND_DIR = path.join(__dirname, 'FRONTEND', 'docs');
 
 const server = http.createServer((req, res) => {
   let filePath = path.join(FRONTEND_DIR, req.url);
