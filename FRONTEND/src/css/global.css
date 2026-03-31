@@ -1,0 +1,63 @@
+:root {
+  /* =========================
+     🎯 BRAND (del logo)
+  ========================= */
+  --brand-primary: #1E2F8A;
+  --brand-primary-dark: #16236A;
+  --brand-primary-light: #3A4FC4;
+
+  /* =========================
+     🌑 BACKGROUNDS (DARK MODE)
+  ========================= */
+  --bg-main: #0A0A0A;        /* fondo general */
+  --bg-surface: #121212;     /* cards */
+  --bg-navbar: #0A0A0A;      
+  --bg-footer: #050505;
+
+  /* =========================
+     ✍️ TEXTOS (invertidos)
+  ========================= */
+  --text-primary: #FFFFFF;   /* texto principal */
+  --text-secondary: #B3B3B3; /* texto secundario */
+  --text-muted: #808080;     
+  --text-dark: #0A0A0A;      /* para botones claros */
+
+  /* =========================
+     🔘 BOTONES
+  ========================= */
+  --btn-primary-bg: var(--brand-primary);
+  --btn-primary-text: #FFFFFF;
+  --btn-primary-hover: var(--brand-primary-light);
+
+  --btn-secondary-bg: #1F1F1F;
+  --btn-secondary-text: #FFFFFF;
+  --btn-secondary-hover: #2A2A2A;
+
+  /* =========================
+     🧱 BORDES & DIVISORES
+  ========================= */
+  --border-color: #2A2A2A;
+  --border-strong: #3A3A3A;
+  --divider: #1F1F1F;
+
+  /* =========================
+     ✨ DETALLES / ACCENTS
+  ========================= */
+  --accent: #4C6FFF;
+  --accent-hover: #6A85FF;
+
+  /* =========================
+     ⚠️ ESTADOS
+  ========================= */
+  --success: #22C55E;
+  --warning: #F59E0B;
+  --error: #EF4444;
+  --info: var(--accent);
+
+  /* =========================
+     🌫️ SOMBRAS (más suaves en dark)
+  ========================= */
+  --shadow-sm: 0 2px 4px rgba(0,0,0,0.4);
+  --shadow-md: 0 4px 10px rgba(0,0,0,0.6);
+  --shadow-lg: 0 10px 25px rgba(0,0,0,0.8);
+}
